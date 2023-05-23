@@ -1,0 +1,115 @@
+/*CSS Reset Rule*/
+
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+/*h1::first-letter {
+	color: rebeccapurple;
+}*/
+
+
+
+.headerlogo {
+	width: 10em;
+	height: 5em;
+}
+
+.landingbg {
+	background-image: url('./bg/landing2bg.jpg');
+	background-size: 100%;
+/*	background-repeat: no-repeat*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 85vh;
+
+}
+.landingtext {
+	background-color: rgba(0,0,0,.10);
+	margin: 150px auto;
+	width: 70%;
+}
+
+nav {
+	background-color: #FBFACD;
+}
+
+#developer_anime {
+	max-width: 320px ;
+}
+
+
+.class-img-top {
+	width: 30%;
+	border-radius: 10px;
+}
+
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0: 
+	bottom: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition:  .5s ease;
+	background-color: rgba(255, 255, 266, .1);
+}
+
+.caption {
+	font-size:  2rem;
+	font-weight: bold;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.thumbnail:hover {
+	transform: translateY(-4px);
+}
+
+.img-container:hover .overlay {
+	opacity: 1;
+}
+
+.img-size {
+	width: 100%;
+	height: 50%;
+}
+
+#bg-project {
+	background-color: #DEBACE;
+}
+
+.bg-project-card {
+	background-color: #7F669D;
+}
+
+.bg-title {
+	background-color: #FBFACD;
+}
+
+.title-section {
+	background-color: #7F669D
+
+}
+
+.tool-section {
+	background-color: #7F669D;
+}
+
+#tool-section-bg {
+	background-color: #FBFACD;
+}
